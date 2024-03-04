@@ -1,0 +1,1628 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    background-color: rgb(241, 237, 233);
+}
+.grid-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 160px);
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.img img{
+    width: 150px;
+}
+.nav{
+    grid-column: 2/3;
+}
+.nav ul li{
+    list-style: none;
+    display:inline;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 21px;
+    color: black;
+}
+.nav a:hover{
+    color:white ;
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 390px);
+    width: 100%;
+    padding: 10px;
+    grid-gap: 20px;
+    background-image: url(../assets/img/rio-branco-4569465.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item1 video{
+    width: 300px;
+    margin-top: 25%;
+    border-radius: 20px;
+}
+.item2 .texto1 {
+    color: #fff;
+    width:300px;
+    height:420px;
+    font-size:xx-small;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid orange;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 15px; 
+}
+.texto1 h1{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.texto1 p{
+    margin-bottom: 20px;
+}
+.texto1 a{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.texto1 a:hover{
+    background-color: #333;
+}
+.item3 img{
+    width: 300px;
+    height: 250px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+.item4 .texto2 {
+    color: #fff;
+    width: 300px;
+    height: 450px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid orange;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 15px; 
+}
+.texto2 h2{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.texto2 p{
+    margin-bottom: 20px;
+}
+.texto2 a{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.texto2 a:hover{
+    background-color: #333;
+}
+.grid-footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 200px);
+    justify-content: space-between;
+    grid-gap: 30px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.logofoot img{
+    width: 250px;
+}
+.menu-foot{
+    margin-top: 25px;
+}
+.menu-foot ul li{
+    list-style: none;
+    display:list-item;
+}
+.menu-foot ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
+.menu-foot a:hover{
+    color:white ;
+}
+.enlaces ul li{
+    list-style: none;
+    display:list-item;
+}
+.enlaces ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
+.enlaces a:hover{
+    color:white ;
+}
+.derechos{
+    text-align: center;
+}
+.redes {
+    text-align: center;
+}
+.redes a{
+    text-decoration: none;
+}
+
+.redes a i:hover{
+    color: #fff;
+}
+footer .redes i{
+    color: rgb(68, 67, 64);
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(41, 40, 37);
+    border-radius: 50%;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    color: #fff;
+    box-shadow: 0px 0px 5px 5px #fff;
+}
+.grid-us{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 350px);
+    width: 100%;
+    padding: 10px;
+    grid-gap: 20px;
+    background-image: url(../assets/img/rio-branco-4569465.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-us .text-us{
+    color: #fff;
+    width:300px;
+    height:450px;
+    font-size:xx-small;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid orange;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 15px; 
+}
+.text-us h1{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.text-us p{
+    margin-bottom: 20px;
+}
+.text-us a{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.text-us a:hover{
+    background-color: #333;
+}
+.img-us img{
+    width: 300px;
+    height: 250px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+.main-products{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 350px);
+    width: 100%;
+    padding: 10px;
+    grid-gap: 20px;
+    background-image: url(../assets/img/rio-branco-4569465.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-products .piranha2{
+    color: #fff;
+    width:300px;
+    height:250px;
+    font-size:xx-small;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid orange;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 15px; 
+}
+.piranha2 h1{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.piranha2 p{
+    margin-bottom: 20px;
+}
+.piranha2 a{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.piranha2 a:hover{
+    background-color: #333;
+}
+.piranha img{
+    width: 300px;
+    height: 250px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+.main-products .bonito2{
+    color: #fff;
+    width:300px;
+    height:300px;
+    font-size:xx-small;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid orange;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 15px; 
+}
+.bonito2 h2{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bonito2 p{
+    margin-bottom: 20px;
+}
+.bonito2 a{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.bonito2 a:hover{
+    background-color: #333;
+}
+.bonito img{
+    width: 300px;
+    height: 300px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+.main-products .paiche2{
+    color: #fff;
+    width:300px;
+    height:300px;
+    font-size:xx-small;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid orange;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 15px; 
+}
+.paiche2 h2{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.paiche2 p{
+    margin-bottom: 20px;
+}
+.paiche2 a{
+    background-color: orange;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.paiche2 a:hover{
+    background-color: #333;
+}
+.paiche img{
+    width: 300px;
+    height: 300px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+#form{
+    background-color: #333;
+    border: 5px solid rgb(68, 67, 64);
+    border-radius: 20px;
+}
+#form h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+#form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 50px);
+    grid-gap: 10px;
+}
+#form input{
+    margin: 5px;
+}
+#form textarea{
+    margin: 5px;
+    height: 100px;
+}
+#form button {
+    margin: 5px;
+}
+.location .street {
+    color: #fff;
+    width:300px;
+    height:120px;
+    font-size:xx-small;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid orange;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.street h1{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.street p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.maps iframe{
+    width: 300px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+@media only screen and (min-width:480px){
+    .grid-header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(1, 160px);
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .img img{
+        width: 150px;
+    }
+    .nav{
+        grid-column: 3/4;
+    }
+    .nav ul li{
+        list-style: none;
+        display:list-item;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+    .nav a:hover{
+        color:white ;
+    }
+    .grid-main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 300px);
+        width: 100%;
+        padding: 10px;
+        grid-gap: 20px;
+        background-image: url(../assets/img/rio-branco-4569465.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .item1 video{
+        width: 400px;
+        margin-top: 15%;
+        border-radius: 20px;
+    }
+    .item2 .texto1 {
+        color: #fff;
+        width:400px;
+        height:350px;
+        font-size:xx-small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .texto1 h1{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .texto1 p{
+        margin-bottom: 20px;
+    }
+    .texto1 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .texto1 a:hover{
+        background-color: #333;
+    }
+    .item3 img{
+        width: 400px;
+        height: 350px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .item4 .texto2 {
+        color: #fff;
+        width: 400px;
+        height: 360px;
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .texto2 h2{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .texto2 p{
+        margin-bottom: 20px;
+    }
+    .texto2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .texto2 a:hover{
+        background-color: #333;
+    }
+    .grid-footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, 200px);
+        justify-content: space-between;
+        grid-gap: 5px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .logofoot img{
+        grid-column: 1/2;
+        width: 150px;
+    }
+    .menu-foot{
+        grid-column: 2/3;
+        margin-top: 10px;
+        text-align:right;
+    }
+    .menu-foot ul li{
+        list-style: none;
+    }
+    .menu-foot ul li a{
+        text-decoration: none;
+        font-size: 1em;
+        color: black;
+    }
+    .menu-foot a:hover{
+        color:white ;
+    }
+    .enlaces ul li{
+        list-style: none;
+        display:inline-block;
+    }
+    .enlaces ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .enlaces a:hover{
+        color:white ;
+    }
+    .derechos{
+        grid-column: 1/3;
+        text-align: center;
+    }
+    .redes {
+        grid-column: 1/3;
+        text-align: center;
+    }
+    .redes a{
+        text-decoration: none;
+    }
+    
+    .redes a i:hover{
+        color: #fff;
+    }
+    footer .redes i{
+        color: rgb(68, 67, 64);
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+    .subir{
+        height: 40px;
+        width: 40px;
+        background-color: rgb(41, 40, 37);
+        border-radius: 50%;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+        color: #fff;
+        box-shadow: 0px 0px 5px 5px #fff;
+    }
+    .grid-us{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 350px);
+        width: 100%;
+        padding: 10px;
+        grid-gap: 5px;
+        background-image: url(../assets/img/rio-branco-4569465.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .grid-us .text-us{
+        color: #fff;
+        width:450px;
+        height:320px;
+        font-size:xx-small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .text-us h1{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .text-us p{
+        margin-bottom: 20px;
+    }
+    .text-us a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .text-us a:hover{
+        background-color: #333;
+    }
+    .img-us img{
+        width: 450px;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .main-products{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 350px);
+        width: 100%;
+        padding: 10px;
+        grid-gap: 10px;
+        background-image: url(../assets/img/rio-branco-4569465.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .main-products .piranha2{
+        color: #fff;
+        width:450px;
+        height:200px;
+        font-size:xx-small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .piranha2 h1{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .piranha2 p{
+        margin-bottom: 20px;
+    }
+    .piranha2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .piranha2 a:hover{
+        background-color: #333;
+    }
+    .piranha img{
+        width: 450px;
+        height: 250px;
+        margin-top: 70px;
+        border-radius: 20px;
+    }
+    .main-products .bonito2{
+        color: #fff;
+        width:450px;
+        height:230px;
+        font-size:xx-small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .bonito2 h2{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .bonito2 p{
+        margin-bottom: 20px;
+    }
+    .bonito2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .bonito2 a:hover{
+        background-color: #333;
+    }
+    .bonito img{
+        width: 450px;
+        height: 300px;
+        margin-top: 70px;
+        border-radius: 20px;
+    }
+    .main-products .paiche2{
+        color: #fff;
+        width:450px;
+        height:230px;
+        font-size:xx-small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .paiche2 h2{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .paiche2 p{
+        margin-bottom: 20px;
+    }
+    .paiche2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .paiche2 a:hover{
+        background-color: #333;
+    }
+    .paiche img{
+        width: 450px;
+        height: 300px;
+        margin-top: 70px;
+        border-radius: 20px;
+    }
+    #form{
+        background-color: #333;
+        border: 5px solid rgb(68, 67, 64);
+        border-radius: 20px;
+    }
+    #form h1{
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+    #form form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 50px);
+        grid-gap: 10px;
+        margin: 10´x;
+    }
+    #form input{
+        margin: 5px;
+    }
+    #form textarea{
+        margin: 5px;
+        height: 100px;
+    }
+    #form button {
+        margin-top: 15px;
+    }
+    .location .street {
+        color: #fff;
+        width:450px;
+        height:100px;
+        font-size:xx-small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        padding: 5px;
+        border-radius: 15px;
+        margin-left: 10px;
+    }
+    .street h1{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .street p{
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .maps iframe{
+        width: 450px;
+        height: 250px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+    }
+}
+@media only screen and (min-width:769px){
+    .grid-header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(1, 160px);
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .img img{
+        width: 150px;
+    }
+    .nav{
+        grid-column: 2/4;
+    }
+    .nav ul li{
+        list-style: none;
+        display:inline;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+    .nav a:hover{
+        color:white ;
+    }
+    .grid-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 280px);
+        justify-content: stretch;
+        width: 100%;
+        padding: 10px;
+        grid-gap: 5px;
+        background-image: url(../assets/img/rio-branco-4569465.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .item1 video{
+        width: 350px;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+    .item2 .texto1 {
+        color: #fff;
+        width: 350px;
+        height: auto;
+        font-size:smaller;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 15px;
+        border-radius: 15px; 
+    }
+    .texto1 h1{
+        text-align: center;
+    }
+    .texto1 p{
+        margin-bottom: 16px;
+        font-size:smaller;
+    }
+    .texto1 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .texto1 a:hover{
+        background-color: #333;
+    }
+    .item3 img{
+        width: 350px;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .item4 .texto2 {
+        color: #fff;
+        width: 350px;
+        height: 250px;
+        font-size:smaller;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        border-radius: 15px; 
+    }
+    .texto2 h2{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .texto2 p{
+        margin-bottom: 16px;
+        font-size:smaller;
+    }
+    .texto2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .texto2 a:hover{
+        background-color: #333;
+    }
+    .grid-footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(1, 200px);
+        justify-content: space-between;
+        grid-gap: 5px;
+        margin: 0 auto;
+    }
+    .logofoot img{
+        grid-column: 1/2;
+        width: 150px;
+    }
+    .menu-foot{
+        grid-column: 2/3;
+        margin-top: 0;
+        text-align:left;
+    }
+    .menu-foot ul li{
+        list-style: none;
+    }
+    .menu-foot ul li a{
+        text-decoration: none;
+        font-size: 1em;
+        color: black;
+    }
+    .menu-foot a:hover{
+        color:white ;
+    }
+    .enlaces ul li{
+        grid-column: 3/4;
+        list-style: none;
+        display:inline-block;
+    }
+    .enlaces ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .enlaces a:hover{
+        color:white ;
+    }
+    .derechos{
+        grid-column: 1/4;
+        text-align: center;
+    }
+    .redes {
+        grid-column: 1/4;
+        text-align: center;
+    }
+    .redes a{
+        text-decoration: none;
+    }    
+    .redes a i:hover{
+        color: #fff;
+    }
+    footer .redes i{
+        color: rgb(68, 67, 64);
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+    .subir{
+        height: 40px;
+        width: 40px;
+        background-color: rgb(41, 40, 37);
+        border-radius: 50%;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+        color: #fff;
+        box-shadow: 0px 0px 5px 5px #fff;
+    }
+    .grid-us{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, 300px);
+        width: 100%;
+        padding: 10px;
+        grid-gap: 5px;
+        background-image: url(../assets/img/rio-branco-4569465.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .grid-us .text-us{
+        color: #fff;
+        width:400px;
+        height:220px;
+        font-size: small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .text-us h1{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .text-us p{
+        margin-bottom: 20px;
+        font-size:smaller;
+    }
+    .text-us a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .text-us a:hover{
+        background-color: #333;
+    }
+    .img-us img{
+        width: 350px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    .main-products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 300px);
+        width: 100%;
+        padding: 10px;
+        grid-gap: 10px;
+        background-image: url(../assets/img/rio-branco-4569465.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .main-products .piranha2{
+        color: #fff;
+        width:300px;
+        height:190px;
+        font-size:small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .piranha2 h1{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .piranha2 p{
+        font-size: smaller;
+    }
+    .piranha2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .piranha2 a:hover{
+        background-color: #333;
+    }
+    .piranha img{
+        grid-column: 1/2;
+        width: 350px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    .main-products .bonito2{
+        color: #fff;
+        width:300px;
+        height:190px;
+        font-size:small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .bonito2 h2{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .bonito2 p{
+        font-size: smaller;
+    }
+    .bonito2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .bonito2 a:hover{
+        background-color: #333;
+    }
+    .bonito img{
+        width: 350px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    .main-products .paiche2{
+        color: #fff;
+        width:300px;
+        height:190px;
+        font-size:small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .paiche2 h2{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .paiche2 p{
+        font-size: smaller;
+    }
+    .paiche2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .paiche2 a:hover{
+        background-color: #333;
+    }
+    .paiche img{
+        width: 350px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    #form{
+        background-color: #333;
+        border: 5px solid rgb(68, 67, 64);
+        border-radius: 20px;
+    }
+    #form h1{
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+    #form form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 50px);
+        grid-gap: 5px;
+        margin: 10px;
+    }
+    #form input{
+        margin: 5px;
+    }
+    #form textarea{
+        margin: 5px;
+        height: 100px;
+    }
+    #form button {
+        border: 5px solid rgb(68, 67, 64);
+        width: 250px;
+        margin: 5px;
+        display: inline-block;
+    }
+    .location .street {
+        align-items: center;
+        color: #fff;
+        width:750px;
+        height:100px;
+        font-size:xx-small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        padding: 5px;
+        border-radius: 15px;
+        margin-left: 10px;
+    }
+    .street h1{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .street p{
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .maps iframe{
+        width: 750px;
+        height: 250px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+    }
+}
+@media only screen and (min-width:1025px){
+    .grid-header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, 160px);
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .img img{
+        width: 150px;
+    }
+    .grid-header .nav{
+        grid-column: 2/3;
+        display:inline ;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+    .nav a:hover{
+        color:white ;
+    }
+    .grid-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, 300px);
+        justify-content: space-around;
+        width: 100%;
+        padding: 10px;
+        grid-gap: 5px;
+        background-image: url(../assets/img/rio-branco-4569465.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .item1 video{
+        width: 420px;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+    .item2 .texto1 {
+        color: #fff;
+        width: 450px;
+        height: auto;
+        font-size:smaller;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 15px;
+        border-radius: 15px; 
+    }
+    .texto1 h1{
+        text-align: center;
+    }
+    .texto1 p{
+        margin-bottom: 16px;
+        font-size:smaller;
+    }
+    .texto1 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .texto1 a:hover{
+        background-color: #333;
+    }
+    .item3 img{
+        width: 400px;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .item4 .texto2 {
+        color: #fff;
+        width: 450px;
+        height: 210px;
+        font-size:smaller;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        border-radius: 15px; 
+    }
+    .texto2 h2{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .texto2 p{
+        margin-bottom: 16px;
+        font-size:smaller;
+    }
+    .texto2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .texto2 a:hover{
+        background-color: #333;
+    }
+    .grid-footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(1, 200px);
+        justify-content: space-between;
+        grid-gap: 5px;
+        margin: 0 auto;
+    }
+    .logofoot img{
+        grid-column: 1/2;
+        width: 150px;
+    }
+    .menu-foot{
+        grid-column: 2/3;
+        margin-top: 0;
+        text-align:left;
+    }
+    .menu-foot ul li{
+        list-style: none;
+    }
+    .menu-foot ul li a{
+        text-decoration: none;
+        font-size: 1em;
+        color: black;
+    }
+    .menu-foot a:hover{
+        color:white ;
+    }
+    .enlaces ul li{
+        grid-column: 3/4;
+        list-style: none;
+        display:list-item;
+    }
+    .enlaces ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .enlaces a:hover{
+        color:white ;
+    }
+    .derechos{
+        grid-column: 1/4;
+        text-align: center;
+    }
+    .redes {
+        grid-column: 1/4;
+        text-align: center;
+    }
+    .redes a{
+        text-decoration: none;
+    }    
+    .redes a i:hover{
+        color: #fff;
+    }
+    footer .redes i{
+        color: rgb(68, 67, 64);
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+    .subir{
+        height: 40px;
+        width: 40px;
+        background-color: rgb(41, 40, 37);
+        border-radius: 50%;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+        color: #fff;
+        box-shadow: 0px 0px 5px 5px #fff;
+    }
+    .grid-us{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, 300px);
+        width: 100%;
+        padding: 10px;
+        grid-gap: 5px;
+        background-image: url(../assets/img/rio-branco-4569465.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .grid-us .text-us{
+        color: #fff;
+        width:450px;
+        height:220px;
+        font-size:small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .text-us h1{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .text-us p{
+        margin-bottom: 20px;
+        font-size:smaller;
+    }
+    .text-us a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .text-us a:hover{
+        background-color: #333;
+    }
+    .img-us img{
+        width: 450px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    .main-products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 300px);
+        width: 100%;
+        padding: 10px;
+        grid-gap: 10px;
+        background-image: url(../assets/img/rio-branco-4569465.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .main-products .piranha2{
+        color: #fff;
+        width:500px;
+        height:160px;
+        font-size:small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .piranha2 h1{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .piranha2 p{
+        font-size: smaller;
+    }
+    .piranha2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .piranha2 a:hover{
+        background-color: #333;
+    }
+    .piranha img{
+        grid-column: 1/2;
+        width: 450px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    .main-products .bonito2{
+        color: #fff;
+        width:500px;
+        height:190px;
+        font-size:small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .bonito2 h2{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .bonito2 p{
+        font-size: smaller;
+    }
+    .bonito2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .bonito2 a:hover{
+        background-color: #333;
+    }
+    .bonito img{
+        width: 450px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    .main-products .paiche2{
+        color: #fff;
+        width:500px;
+        height:190px;
+        font-size:small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        text-align: justify;
+        padding: 5px;
+        border-radius: 15px; 
+    }
+    .paiche2 h2{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .paiche2 p{
+        font-size: smaller;
+    }
+    .paiche2 a{
+        background-color: orange;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .paiche2 a:hover{
+        background-color: #333;
+    }
+    .paiche img{
+        width: 450px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    #form{
+        background-color: #333;
+        border: 5px solid rgb(68, 67, 64);
+        border-radius: 20px;
+        margin: 50px;
+    }
+    #form h1{
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+    #form form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 50px);
+        grid-gap: 5px;
+        margin: 10px;
+    }
+    #form input{
+        margin: 5px;
+    }
+    #form textarea{
+        margin: 5px;
+        height: 100px;
+    }
+    #form button {
+        border: 5px solid rgb(68, 67, 64);
+        width: 250px;
+        margin: 5px;
+        display: inline-block;
+    }
+    .location .street {
+        align-items: center;
+        color: #fff;
+        width:950px;
+        height:100px;
+        font-size:xx-small;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid orange;
+        padding: 5px;
+        border-radius: 15px;
+        margin-left: 10px;
+    }
+    .street h1{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .street p{
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .maps iframe{
+        width: 950px;
+        height: 250px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+    }
+}
